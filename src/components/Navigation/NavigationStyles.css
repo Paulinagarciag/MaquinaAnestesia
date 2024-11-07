@@ -1,0 +1,53 @@
+.barraNavegacion {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+}
+
+.Navigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.nav-item:not(:last-child) {
+  border-right: 1px solid black; /* Adds a black line to the right of each item, except the last */
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  color: #009688;
+  font-weight: bold;
+}
+
+.nav-link.active {
+  color: #009688;
+  font-weight: bold;
+  border-bottom: 2px solid #009688;
+}

@@ -1,0 +1,41 @@
+.UserItems {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 39%;
+}
+
+.Back {
+    text-decoration: none;
+    color: #432807;
+    font-size: 20px;
+}
+
+.Back:hover{
+    color: #937750;
+}
+
+.BotonDelete {
+    margin: 10px;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #9d692a;
+    border:none;
+    border-radius: 8px;
+}
+
+.BotonDelete:hover{
+    background-color: #815219;
+}
+
+.BotonUpdate {
+    margin: 10px;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #9d692a;
+    border:none;
+    border-radius: 8px;
+}
+
+.BotonUpdate:hover{
+    background-color: #815219;
+}

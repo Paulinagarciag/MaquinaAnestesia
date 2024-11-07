@@ -1,0 +1,107 @@
+/* Estilo para la sección de características */
+.features-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.features-heading {
+    font-size: 22px;
+    font-weight: bold;
+    color: #41b3aa;
+    margin-bottom: 20px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.feature-item {
+    padding: 15px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    border-right: 1px solid rgb(200, 200, 200);
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Añade una transición suave */
+}
+
+.feature-item:nth-child(2n) {
+    border-right: none;
+}
+
+.feature-item:nth-last-child(-n+2) {
+    border-bottom: none;
+}
+
+.feature-title {
+    font-size: 18px;
+    color: rgb(72, 77, 77);
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Descripción oculta inicialmente */
+.feature-description {
+    display: none;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid rgb(194, 193, 193);
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mostrar la descripción al pasar el ratón sobre el título */
+.feature-item:hover .feature-description {
+    display: block;
+}
+
+/* Cambia el color del fondo y texto cuando el ratón está sobre el item */
+.feature-item:hover {
+    background-color:#41b3aa; /* Cambia el fondo al color que prefieras */
+    color: rgb(30, 60, 60); /* Cambia el color del texto */
+}
+
+
+/* Estilo para la sección de Educaplay */
+.EducaplayActivity {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.educaplay-heading {
+    color: rgb(72, 77, 77); /* Color del texto */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #a6afaf; /* Azul aguamarina */
+    padding: 15px; /* Espacio interno alrededor del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
+.intro-section {
+    max-width: 700px; /* Define un ancho máximo */
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 20px;
+    text-align: center; /* Centra el texto */
+    font-size: 18px; /* Tamaño de fuente para mejorar la lectura */
+    color: rgb(72, 77, 77); /* Color del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    background-color: rgb(245, 245, 245); /* Color de fondo suave */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un poco de profundidad */
+}
+
+

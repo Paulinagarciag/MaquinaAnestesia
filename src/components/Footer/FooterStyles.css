@@ -1,0 +1,25 @@
+.Footer {
+    background-color: #fdfeff; /* Color de fondo del footer */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Espacia el contenido entre el logo y los íconos */
+    align-items: center; /* Centra verticalmente el contenido */
+    position: relative; /* Necesario para posicionar los íconos */
+    border-top: 2px solid #1c1c1c14; /* Línea negra en la parte superior del footer */
+}
+
+.footer-logo {
+    max-width: 150px; /* Ajusta según el tamaño de tu logo */
+}
+
+.SocialIcons {
+    position: absolute; /* Posición absoluta para colocar en la esquina inferior derecha */
+    right: 20px; /* Ajusta el espaciado a la derecha */
+    bottom: 20px; /* Ajusta el espaciado hacia abajo */
+}
+
+.social-icon {
+    width: 30px; /* Tamaño de los íconos */
+    margin: 0 10px; /* Espaciado entre los íconos */
+}
+

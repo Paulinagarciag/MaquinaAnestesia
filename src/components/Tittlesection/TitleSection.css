@@ -1,0 +1,37 @@
+.title-section {
+  text-align: center;
+  background-color: #f2ececb0; /* Color de fondo gris claro */
+  padding: 20px;
+}
+
+.title-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+.title-icon {
+  width: 80px; /* Tamaño de la imagen, ajusta según sea necesario */
+  height: auto;
+  margin-right: 15px; /* Espaciado entre la imagen y el título */
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #666666; /* Color gris */
+  margin: 0;
+}
+
+.main-title {
+  font-size: 1.8rem;
+  color: #41b3aa; /* Color teal para el título principal */
+  margin: 5px 0;
+}
+
+.secondary-title {
+  font-size: 1.8rem;
+  color: #41b3aa; /* Color teal para el título secundario */
+  margin: 0;
+}
+
+  

@@ -1,0 +1,21 @@
+.Funcionamiento {
+    background-color: #ffffff;
+  }
+
+  .video-container h2 {
+    color: rgb(72, 77, 77); /* Cambia 'teal' por el color que prefieras */
+    font-size: 20px; /* Ejemplo de tamaño de fuente */
+    font-weight: bold; /* Ejemplo de peso de fuente */
+    
+}
+.educaplay-container h2{
+  color: rgb(72, 77, 77); /* Cambia 'teal' por el color que prefieras */
+  font-size: 20px; /* Ejemplo de tamaño de fuente */
+  font-weight: bold; /* Ejemplo de peso de fuente */
+  background-color: #a6afaf; /* Azul aguamarina */
+   padding: 15px; /* Espacio interno alrededor del texto */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+  display: inline-block;
+}
+  

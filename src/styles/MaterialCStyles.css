@@ -1,0 +1,61 @@
+.container {
+  padding: 20px;
+  text-align: center; /* Centra el texto dentro del contenedor */
+  font-family: Arial, sans-serif; /* Tipografía general */
+}
+
+.pdf-container {
+  margin: 40px 0; /* Espaciado vertical entre secciones */
+  border: 1px solid #41b3aa; /* Borde alrededor de la ficha técnica y página oficial */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  background-color: #f9f9f9; /* Color de fondo suave */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+.pdf-container h2 {
+  color: #41b3aa; /* Color del título */
+}
+
+.pdf-container img {
+  width: 200px; /* Tamaño de la imagen */
+  margin: 10px 0; /* Margen vertical entre la imagen y el texto */
+  transition: transform 0.3s; /* Efecto de transición para el hover */
+}
+
+.pdf-container img:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+.video-container {
+  margin: 20px 0;
+}
+
+.video {
+  margin: 20px 0; /* Espaciado entre videos */
+}
+
+.video h3 {
+  background-color: #41b3aa; /* Color de fondo especificado */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espaciado alrededor del texto */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+iframe {
+  border-radius: 5px; /* Bordes redondeados para los videos */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+}
+
+.container h1 {
+  max-width: 700px; /* Define un ancho máximo */
+margin: 0 auto; /* Centra horizontalmente */
+padding: 20px;
+text-align: center; /* Centra el texto */
+font-size: 18px; /* Tamaño de fuente para mejorar la lectura */
+color: rgb(72, 77, 77); /* Color del texto */
+line-height: 1.6; /* Espaciado entre líneas */
+background-color: rgb(245, 245, 245); /* Color de fondo suave */
+border-radius: 8px; /* Bordes redondeados */
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un poco de profundidad */
+}
